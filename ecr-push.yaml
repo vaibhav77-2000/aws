@@ -3,7 +3,7 @@ name: Push Docker Image to ECR
 on:
   push:
     branches:
-      - main  # Apni main branch ka naam yahan dal do
+      - master  # Apni main branch ka naam yahan dal do
 
 jobs:
   push_to_ecr:
